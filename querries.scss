@@ -1,0 +1,84 @@
+@media (max-width: 37.9375em) {
+  .comment {
+    position: relative;
+    .comment-header {
+      flex-direction: column;
+      .btns {
+        align-self: flex-end;
+        position: absolute;
+        bottom: 1.6rem;
+        right: 1rem;
+        gap: 0 !important;
+      }
+    }
+    flex-direction: column;
+    .likes-container {
+      flex-direction: row;
+      align-items: center;
+      order: 1;
+      align-self: flex-start;
+      height: fit-content;
+      gap: 0.5rem;
+      margin: 0;
+      margin-top: 0.5rem;
+      padding: 0.7rem 0.5rem;
+    }
+  }
+  .user-comment {
+    textarea {
+      box-sizing: border-box;
+    }
+    flex-direction: column-reverse;
+
+    position: relative;
+    .send-btn {
+      position: absolute;
+      bottom: 1rem;
+      right: 1rem;
+    }
+  }
+  .add-comment .user-comment button {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+  }
+}
+
+@media (max-width: 106.25em) {
+  .delete-panel {
+    width: 24%;
+  }
+}
+@media (max-width: 88.5625em) {
+  .delete-panel {
+    width: 30%;
+  }
+}
+@media (max-width: 70.8125em) {
+  .delete-panel {
+    width: 40%;
+  }
+}
+@media (max-width: 53.125em) {
+  .delete-panel {
+    width: 60%;
+  }
+  .delete-panel-btns {
+    flex-direction: column-reverse;
+
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .CANCEL-btn {
+    margin-right: 0 !important;
+  }
+}
+@media (max-width: 23.43755em) {
+  .delete-panel {
+    gap: 1rem;
+  }
+
+  .delete-text {
+    display: none;
+  }
+}
